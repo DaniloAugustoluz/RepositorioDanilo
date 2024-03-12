@@ -3,7 +3,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url('/img/japan-2014618_1280.jpg');
+    background-image: url('/img/landscape-4890162_1280.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body{
     font-family: "Dosis", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: black;
 }
 
 .dizeres p{
@@ -35,9 +35,12 @@ body{
     align-items: center;
     font-size: 11px;
     font-family: "Dosis", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: black;
+    border-bottom: 2px solid rgb(238, 218, 218);
+    padding-bottom: 4px;
+
 }
 
 .buttons{
@@ -49,7 +52,7 @@ body{
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 15px 15px 60px 5px rgb(7, 7, 7);
+    box-shadow: 15px 15px 60px 5px rgb(196, 157, 50);
 }
 
 .buttons a{
@@ -92,7 +95,7 @@ body{
     width: 900px;
     height: 720px;
     border-radius: 20px;
-    background-color: white;
+    background-color: #ecb040;
 }
 
 .info-1{
@@ -122,7 +125,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #c1c4c1;
+    background-color: #ecb040;
     border-radius: 10px;
 }
 
@@ -133,7 +136,7 @@ body{
     align-items: center;
     width: 55%;
     height: 80%;
-    box-shadow: 15px 15px 60px 5px rgb(104, 99, 97);
+    box-shadow: 15px 8px 6px 5px rgb(104, 99, 97);
     border-radius: 15px;
     padding: 53px;
 
@@ -463,7 +466,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #ecb040;
     border-radius: 10px;
 }
 .texto-perfil-projetos{
@@ -475,7 +478,7 @@ body{
     height: 80%;
     border-radius: 15px;
     padding: 53px;
-    border: 2px solid rgb(223, 204, 204);
+    box-shadow: 15px 8px 6px 5px rgb(104, 99, 97);
 }
 .projetovolit{
     display: flex;
@@ -518,7 +521,7 @@ body{
 .projetovolit .linkgit{
     text-decoration: none;
     font-family: "Dosis", sans-serif;
-    color: darkgray;
+    color: black;
     text-transform: uppercase;
     font-size: 11px; 
     font-weight: 700;
@@ -604,7 +607,6 @@ body{
     color: black;
     background-image: linear-gradient(to top left, #ff8100 35%, #ff2900 18%, #ff8100 20%);
     padding: 19px;
-    border: 2px solid black;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -640,7 +642,6 @@ body{
     color: black;
     background-image: linear-gradient(to top left, #ff2900 2%, #ff8100 0%);
     padding: 19px;
-    border: 2px solid black;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -674,7 +675,6 @@ body{
     color: black;
     background-image: linear-gradient(to top left, #ff2900 2%, #ff8100 2%);
     padding: 19px;
-    border: 2px solid black;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -691,11 +691,13 @@ body{
     border-radius: 12px;
     width: 80%;
     height: 80%;
+    padding: 20px;
+    box-shadow: 10px 8px 4px 5px rgb(104, 99, 97);
 }
 .formacao-2 .voltar{
     text-decoration: none;
     font-family: "Dosis", sans-serif;
-    color: rgb(87, 87, 87);
+    color: whitesmoke;
     text-transform: uppercase;
     font-size: 11px;
     font-weight: 800;
@@ -726,7 +728,6 @@ body{
     color: black;
     background-image: linear-gradient(to top left, #d6cbc9 2%, #ece0d5 2%);
     padding: 19px;
-    border: 2px solid whitesmoke;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -739,7 +740,6 @@ body{
     color: black;
     background-image: linear-gradient(to top left, #d6cbc9 2%, #ece0d5 2%);
     padding: 19px;
-    border: 2px solid whitesmoke;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -752,7 +752,6 @@ body{
     color: black;
     background-image: linear-gradient(to top left, #d6cbc9 2%, #ece0d5 2%);
     padding: 19px;
-    border: 2px solid whitesmoke;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -766,6 +765,6 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top left,#ece0d5 20%, #686565 98%);
+    background-color: #ecb040;
     border-radius: 10px;
 }

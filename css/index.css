@@ -827,7 +827,7 @@ body{
         color: black;
         margin-bottom: 42px;
     }
-    /* Projetos e trabalhos media screen 600px */
+    /* Projetos e Experiências media screen 600px */
     .container-main {
         display: flex;
         flex-direction: row;
@@ -854,7 +854,7 @@ body{
         font-size: 9px;
     }
     .texto-perfil-projetos{
-        box-shadow: 12px 11px 7px 3px rgb(112, 106, 103);
+        box-shadow: none;
     }
     .projetovolit{
         width: auto;

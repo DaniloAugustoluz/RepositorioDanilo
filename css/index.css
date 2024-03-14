@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
@@ -362,6 +363,16 @@ body{
 
 /*  PÁGINA DE PROJETOS  #############################  */
 /*  CONTAINER INFO 1  */
+.info-1-projeto{
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to top left, #ff2900 15%, #ff8100 62%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
 .container-info1{
         width: 200px;
         height: 200px;
@@ -770,6 +781,7 @@ body{
     background-color: #ecb040;
     border-radius: 10px;
 }
+
 /*  RESPONSIVO  */ 
 @media screen and (max-width: 600px) {
     /* Index media screen   600px*/
@@ -812,13 +824,49 @@ body{
         font-size: 11px;
     }
     .info-2 .texto-perfil .voltar{
-        color: rgb(131, 106, 106);
+        color: black;
         margin-bottom: 42px;
     }
     /* Projetos e trabalhos media screen 600px */
-    .container-info1 {
-        display: ;
+    .container-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-image: linear-gradient(to top left, #ff2900 15%, #ff8100 72%);
     }
+    .container-main .container-info1{
+        width: auto;
+        height: auto;
+    }
+    .container-main .container-info1 h3{
+        font-size: 12px;
+    }
+    .ProjetoEquilibrio .descricao {
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .ProjetoEquilibrio h4{
+        font-size: 10px;
+    }
+    .ProjetoEquilibrio p{
+        font-size: 9px;
+    }
+    .texto-perfil-projetos{
+        box-shadow: 12px 11px 7px 3px rgb(112, 106, 103);
+    }
+    .projetovolit{
+        width: auto;
+        height: auto; 
+    }
+    .projetovolit h4{
+        font-size: 10px;   
+    }
+    .texto-perfil-projetos .projetovolit p{
+        font-size: 8px;
+        font-weight: 500;
+    }
+
   }
   
   /* Estilos para telas entre 601px e 900px de largura */

@@ -383,7 +383,7 @@ body{
     color: black;
     text-transform: uppercase;
     font-size: 16px;
-    box-shadow: -52px -37px 28px rgba(173, 56, 10, 0.7);
+    box-shadow: -5px -9px 13px rgba(173, 56, 10, 0.7);
     padding: 6px;
 }
 .ProjetoEquilibrio{
@@ -841,6 +841,7 @@ body{
     }
     .container-main .container-info1 h3{
         font-size: 12px;
+        box-shadow: 2px -7px 10px rgba(173, 56, 10, 0.7);
     }
     .ProjetoEquilibrio .descricao {
         font-size: 8px;
